@@ -1,7 +1,7 @@
 #!/bin/bash
 
-NDK=$HOME/Dev/libs/android-ndk-r10d
-SYSROOT=$NDK/platforms/android-14/arch-arm/
+NDK=YOUR ANDROID NDK PATH
+SYSROOT=$NDK/platforms/android-{ANDROID API VERSION}/arch-arm/
 TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64
 function build_one
 {
